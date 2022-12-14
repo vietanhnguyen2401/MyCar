@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.SearchView.ColorSearchView">
+        <item name="android:editTextColor">@color/color_black_86</item>
+        <item name="android:textColorHint">@color/color_black_38</item>
+        <item name="android:tint">@color/color_black_38</item>
+    </style>
+</resources>

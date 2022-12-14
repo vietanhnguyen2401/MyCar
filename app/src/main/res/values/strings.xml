@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Cart</string>
+    <string name="search">search</string>
+    <string name="price">đ %s</string>
+    <string name="my_cart">My Cart</string>
+    <string name="total">Total</string>
+    <string name="checkout">Checkout</string>
+</resources>

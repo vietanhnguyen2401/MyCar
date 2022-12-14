@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hanu.a2_1901040018">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="hanu.a2_1901040018.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyCart">
+        <activity
+            android:name="hanu.a2_1901040018.presentation.modules.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="hanu.a2_1901040018.presentation.modules.cart.CartActivity"/>
+    </application>
+</manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="d_0_5">0.44dp</dimen>
+	<dimen name="d_1">0.89dp</dimen>
+	<dimen name="d_100">88.89dp</dimen>
+	<dimen name="d_12">10.67dp</dimen>
+	<dimen name="d_120">106.67dp</dimen>
+	<dimen name="d_16">14.22dp</dimen>
+	<dimen name="d_18">16.00dp</dimen>
+	<dimen name="d_200">177.78dp</dimen>
+	<dimen name="d_24">21.33dp</dimen>
+	<dimen name="d_240">213.33dp</dimen>
+	<dimen name="d_32">28.44dp</dimen>
+	<dimen name="d_36">32.00dp</dimen>
+	<dimen name="d_4">3.56dp</dimen>
+	<dimen name="d_40">35.56dp</dimen>
+	<dimen name="d_48">42.67dp</dimen>
+	<dimen name="d_56">49.78dp</dimen>
+	<dimen name="d_8">7.11dp</dimen>
+	<dimen name="d_80">71.11dp</dimen>
+	<dimen name="d_action_bar">49.78dp</dimen>
+	<dimen name="d_12sp">10.67sp</dimen>
+	<dimen name="d_16sp">14.22sp</dimen>
+	<dimen name="d_18sp">16.00sp</dimen>
+	<dimen name="d_24sp">21.33sp</dimen>
+</resources>

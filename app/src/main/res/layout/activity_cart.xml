@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <ImageView
+        android:layout_width="@dimen/d_48"
+        android:layout_height="@dimen/d_48"
+        android:layout_marginTop="@dimen/d_24"
+        android:src="@drawable/ic_cart"
+        app:tint="@color/color_blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_8"
+        android:text="@string/my_cart"
+        android:textColor="@color/color_black_86"
+        android:textSize="@dimen/d_18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginVertical="@dimen/d_12"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_cart_product" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_blue"
+        android:paddingHorizontal="@dimen/d_16"
+        android:paddingVertical="@dimen/d_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textColor="@color/color_black_86"
+            android:textSize="@dimen/d_24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đ 490000"
+            android:textColor="@color/color_orange"
+            android:textSize="@dimen/d_24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_credit"
+            android:layout_width="@dimen/d_32"
+            android:layout_height="@dimen/d_32"
+            android:src="@drawable/ic_credit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tv_checkout"
+            app:layout_constraintEnd_toEndOf="@id/tv_checkout"
+            app:layout_constraintStart_toStartOf="@id/tv_checkout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/color_blue" />
+
+        <TextView
+            android:id="@+id/tv_checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkout"
+            android:textColor="@color/color_blue"
+            android:textSize="@dimen/d_12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_credit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
